@@ -1,9 +1,8 @@
-import Layout from '../components/MyLayout.js'
 import Link from 'next/link'
 import fetch from 'isomorphic-unfetch'
 
 const Test = (props) => (
-    <Layout>
+    <div>
         <h1>จังหวัด</h1>
         <ul>
             {props.result.map((row) => (
@@ -14,7 +13,7 @@ const Test = (props) => (
                 </li>
             ))}
         </ul>
-    </Layout>
+    </div>
 )
 
 Test.getInitialProps = async function ({ req }) {
