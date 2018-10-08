@@ -1,0 +1,22 @@
+{
+  "name": "nextjs-mssql",
+  "version": "1.0.0",
+  "description": "Next.JS MSSQL",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "Ratthee Jar. <ratthee.jar@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "express": "^4.16.3",
+    "isomorphic-unfetch": "^3.0.0",
+    "msnodesqlv8": "^0.6.8",
+    "next": "^7.0.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
